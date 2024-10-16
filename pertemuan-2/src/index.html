@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Latihan Tailwind CSS</title>
+   <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-gray-100 font-sans">
+   <section id="title" class="text-center py-4">
+      <h1 class="text-2xl font-bold">Todo List Application</h1>
+   </section>
+   <section id="input" class="flex justify-center items-center space-x-2 py-4">
+      <input type="text" name="assignment" id="assignment" 
+             class="border border-gray-300 rounded-md px-4 py-2 w-96 shadow-sm focus:outline-none focus:border-blue-500"
+             placeholder="Inputkan tugas yang akan dikerjakan ...">
+      <input type="button" id="btn-tambah" value="TAMBAH"
+             class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md cursor-pointer">
+   </section>
+   <section id="output" class=""></section>
+   <script src="main.js"></script>
+</body>
+</html>
